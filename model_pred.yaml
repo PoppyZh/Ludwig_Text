@@ -1,0 +1,14 @@
+input_features:
+    -
+        name: essay0
+        type: text
+        level: word
+        encoder: rnn
+        cell_type: lstm
+ 
+
+
+output_features:
+    -
+        name: wantskids
+        type: category
